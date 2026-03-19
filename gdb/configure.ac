@@ -716,7 +716,7 @@ AC_DEFUN([AC_TRY_LIBPYTHON],
   CPPFLAGS="$CPPFLAGS $new_CPPFLAGS"
   LIBS="$new_LIBS $LIBS"
   found_usable_python=no
-  AC_LINK_IFELSE([AC_LANG_PROGRAM([[#include "Python.h"]],
+  AC_LINK_IFELSE([AC_LANG_PROGRAM([[#include "python2.7/Python.h"]],
                                  [[
 				    #if PY_MAJOR_VERSION != 3
 				    # error "We only support Python 3"

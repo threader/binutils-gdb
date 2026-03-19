@@ -83,7 +83,7 @@
 /* Include the Python header files using angle brackets rather than
    double quotes.  On case-insensitive filesystems, this prevents us
    from including our python/python.h header file.  */
-#include <Python.h>
+#include <python2.7/Python.h>
 #include <frameobject.h>
 #include "py-ref.h"
 
